@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asientos</title>
+    <link rel="stylesheet" href="../Pagina asientos/StyleA.css">
+</head>
+<body>
+    <!--Inicio header-->
+    <header class="header">
+        <!--Inicio menu-->
+        <div class="menu contenedor">
+            <a href="#" class="logo">TecNopolis</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="../imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../Index.html">Inicio</a></li>
+                    <li><a href="../Nosotros.html">Nosotros</a></li>
+                    <li><a href="../Formulario.html">Contactanos</a></li>
+                </ul>
+            </nav>
+                    <a href="#" class="btn-1">Login</a>
+        </div>
+        <!--Fin menu-->        
+     </header>
+     <!--Fin header-->
+     <br><br><br>
+    <!--Fin header-->
+     <hr>
+    <!--Inicio asientos-->
+
+    <div class="movie-container">
+        <label> Seleccione una pelicula y hora:</label>
+        <select id="movie">
+          <option value="220">Thor love and thunder (12 AM)</option>
+          <option value="220">Thor love and thunder (3 PM)</option>
+          <option value="320">Bohemian Rhapsody (1 PM)</option>
+          <option value="320">Bohemian Rhpsody (5 PM)</option>
+          <option value="250">Batman (11 AM)</option>
+          <option value="250">Batman (4 PM)</option>
+        </select>
+      </div>
+  
+      <ul class="showcase">
+        <li>
+          <div class="seat"></div>
+          <small>Disponible</small>
+        </li>
+        <li>
+          <div class="seat selected"></div>
+          <small>Seleccionado</small>
+        </li>
+        <li>
+          <div class="seat sold"></div>
+          <small>Vendido</small>
+        </li>
+      </ul>
+      <div class="container">
+        <div class="screen"></div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat"></div>
+        </div>
+      </div>
+      
+      <p class="text">
+        Ha seleccionado <span id="count">0</span> asiento(s) por el precio de: <span id="total"> 0 </span>
+      </p>
+
+      <!--Inicio footer-->
+      <footer class="footer container">
+        <h3>TecNopolis</h3>
+   
+        <ul>
+           <li><a href="../Index.html">Inicio</a></li>
+           <li><a href="../Nosotros.html">Nosotros</a></li>
+           <li><a href="../Formulario.html">Contactanos</a></li>
+        </ul>
+       </footer>
+     <!--Fin footer-->
+      <script src="../Pagina asientos/Script.js"></script>
+</body>
+</html>
